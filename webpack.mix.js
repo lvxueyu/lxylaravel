@@ -11,6 +11,10 @@ const mix = require('laravel-mix');
  |
  */
 
+//mix.js('resources/js/app.js', 'public/js')
+//    .sass('resources/sass/app.scss', 'public/css')
+//    .sourceMaps();
+
+//使用哈希功能，每次修改css或js时浏览器能及时更新，正式上线需要改成上面的
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css')
-    .sourceMaps();
+   .sass('resources/sass/app.scss', 'public/css').version();
