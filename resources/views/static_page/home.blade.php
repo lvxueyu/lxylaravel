@@ -1,7 +1,6 @@
 @extends('layouts.default')
 
 @section('content')
-<<<<<<< HEAD
   <div class="jumbotron">
     <h1>Hello Laravel</h1>
     <p class="lead">
@@ -14,8 +13,5 @@
       <a class="btn btn-lg btn-success" href="{{ route('signup') }}" role="button">现在注册</a>
     </p>
   </div>
-=======
-<h1>首页</h1>
-<h2>首页2</h2>
->>>>>>> 998219b446eff3649e6522a204827bf81b7ae59b
+
 @stop
